@@ -2,20 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5),#000000),url("/hero-bg.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-select {
+    background: linear-gradient(128deg, rgba(255,0,0,1) 0%, rgba(205,216,116,1) 100%);  
 }

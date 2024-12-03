@@ -1,0 +1,7 @@
+fakt gen button icon
+
+mehr features
+-> vorlese funktion
+-> teilen funktion
+-> andere möglichkeiten fakten zu lernen
+-> informaniak ki api nutzen für random facts
