@@ -5,3 +5,5 @@ mehr features
 -> teilen funktion
 -> andere möglichkeiten fakten zu lernen
 -> informaniak ki api nutzen für random facts
+
+vorlese funktion schau bei https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak#examples
