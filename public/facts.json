@@ -1,5 +1,5 @@
 {
-    "science": [
+    "wissenschaft": [
       "Bananen sind Beeren, aber Erdbeeren sind es nicht.",
       "Honig verdirbt nie.",
       "Oktopusse haben drei Herzen.",
@@ -49,7 +49,7 @@
       "Eine Seeschnecke kann Photosynthese betreiben.",
       "Das Herz einer Garnele befindet sich in ihrem Kopf."
     ],
-    "history": [
+    "geschichte": [
       "Der kürzeste Krieg in der Geschichte fand am 27. August 1896 zwischen Großbritannien und Sansibar statt. Sansibar kapitulierte nach 38 Minuten.",
       "Abraham Lincoln war ein lizenzierter Barkeeper.",
       "Die Große Mauer von China ist ohne Hilfe aus dem Weltraum nicht sichtbar.",
@@ -99,7 +99,7 @@
       "Die Apollo-11-Mission brachte die ersten Menschen auf den Mond.",
       "Der erste Mensch, der in den Weltraum flog, war der sowjetische Kosmonaut Juri Gagarin."
     ],
-    "technology": [
+    "technologie": [
       "Der erste Computervirus wurde 1983 erstellt.",
       "Die erste 1-GB-Festplatte wurde 1980 von IBM angekündigt. Sie wog über 500 Pfund und kostete 40.000 Dollar.",
       "Es gibt täglich über 3,5 Milliarden Google-Suchen.",

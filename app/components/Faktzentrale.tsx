@@ -5,11 +5,13 @@ import { useState, useEffect, useRef } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+
 
 const categories = {
-  wissenschaft: 'science',
-  geschichte: 'history',
-  technologie: 'technology',
+  wissenschaft: 'wissenschaft',
+  geschichte: 'geschichte',
+  technologie: 'technologie',
 }
 
 const getRandomFact = (facts: string[]) => {
@@ -56,7 +58,7 @@ const DailyFact = () => {
             {loading ? (
             <p className="text-lg">Faktinator ladet...</p>
             ) : (
-            <p className="md:text-2xl text-lg bg-blue-500/30 border-2 border-white backdrop-blur rounded-lg p-5 m-5 mb-0 md:w-7/12 w-3/4">{fact}</p>
+            <p className="md:text-2xl text-lg bg-select drop-shadow-2xl border-2 border-white backdrop-blur rounded-lg p-5 m-5 mb-0 md:w-7/12 w-3/4">{fact}</p>
             )}
           </div>
             
@@ -64,13 +66,14 @@ const DailyFact = () => {
             className="mt-4 px-6 py-3 rounded-lg font-bold overflow-hidden hover:tranlate-y-1 transition-transform duration-300"
             onClick={() => fetchFact(category)}
             >
-            <Image src="/icon.png" width={100} height={100} alt=" " className='rounded-lg bg-opacity-20 backdrop-blur-lg hover:scale-110 transition-transform duration-300 ease-in-out' />
+            <Image src="/neuerfakt.png" width={100} height={100} alt=" " className='rounded-lg bg-opacity-20 backdrop-blur-lg hover:scale-110 transition-transform duration-300 ease-in-out' />
             </button>
 
-
+            <Button>Hallo</Button>
         </div>
     </>
   )
 }
 
 export default DailyFact
+

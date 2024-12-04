@@ -2,19 +2,20 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Faktzentrale from './components/Faktzentrale'
+import Test from './components/Test'
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Daily Fact App</title>
-        <meta name="description" content="A simple Daily Fact app built with Next.js" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Fakt Zentrale</title>
+        <link rel="icon" href="/icon.png" />
       </Head>
 
-      <main>
+      <main id="hero">
         <Faktzentrale />
       </main>
+      <Test />
     </div>
   )
 }
