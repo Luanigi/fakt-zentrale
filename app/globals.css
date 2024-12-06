@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 body {
-    @apply bg-black
+    @apply bg-black;
+    scroll-behavior: smooth;
 }
 
 #hero {
     background: linear-gradient(rgba(0,0,0,0.5),#000000),url("/hero-bg.gif");
+    background-size: cover;
+    background-position: center;
+}
+#about {
+  background: linear-gradient(rgba(0,0,0,0.5),#000000),url("/hero-bg.gif");
     background-size: cover;
     background-position: center;
 }
@@ -73,4 +79,10 @@ body {
   * {
     @apply border-border;}
   body {
-    @apply bg-background text-foreground;}}
+    @apply bg-background text-foreground scroll-smooth overflow-x-hidden;}}
+
+#ressources {
+        background: linear-gradient(#000, rgba(0,0,0,0.5), #000),url("/gridbg.jpg");
+        background-position: center;
+        text-shadow: 1px 1px 2px #000b21;
+}

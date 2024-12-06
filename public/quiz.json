@@ -1,0 +1,103 @@
+[
+    {
+      "question": "Welche Farbe hat der Himmel?",
+      "correct_answer": "Blau",
+      "incorrect_answers": ["Rot", "Grün", "Gelb"]
+    },
+    {
+      "question": "Was ist die Hauptstadt von Frankreich?",
+      "correct_answer": "Paris",
+      "incorrect_answers": ["Berlin", "Madrid", "Rom"]
+    },
+    {
+      "question": "Was ist der größte Planet in unserem Sonnensystem?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": ["Erde", "Mars", "Saturn"]
+    },
+    {
+      "question": "Welches Element hat das chemische Symbol 'O'?",
+      "correct_answer": "Sauerstoff",
+      "incorrect_answers": ["Gold", "Silber", "Eisen"]
+    },
+    {
+      "question": "Wer malte die Mona Lisa?",
+      "correct_answer": "Leonardo da Vinci",
+      "incorrect_answers": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet"]
+    },
+    {
+      "question": "Wie viele Kontinente gibt es auf der Erde?",
+      "correct_answer": "Sieben",
+      "incorrect_answers": ["Sechs", "Acht", "Fünf"]
+    },
+    {
+      "question": "Welches Tier ist das größte Säugetier der Welt?",
+      "correct_answer": "Blauwal",
+      "incorrect_answers": ["Elefant", "Giraffe", "Nashorn"]
+    },
+    {
+      "question": "In welcher Stadt steht das Kolosseum?",
+      "correct_answer": "Rom",
+      "incorrect_answers": ["Athen", "Paris", "Madrid"]
+    },
+    {
+      "question": "Wie viele Planeten gibt es in unserem Sonnensystem?",
+      "correct_answer": "Acht",
+      "incorrect_answers": ["Neun", "Sieben", "Sechs"]
+    },
+    {
+      "question": "Wer schrieb 'Hamlet'?",
+      "correct_answer": "William Shakespeare",
+      "incorrect_answers": ["Charles Dickens", "Mark Twain", "J.K. Rowling"]
+    },
+    {
+      "question": "Was ist die chemische Formel für Wasser?",
+      "correct_answer": "H2O",
+      "incorrect_answers": ["CO2", "O2", "NaCl"]
+    },
+    {
+      "question": "Was ist das höchste Gebirge der Welt?",
+      "correct_answer": "Himalaya",
+      "incorrect_answers": ["Anden", "Rocky Mountains", "Alpen"]
+    },
+    {
+      "question": "Wer war der erste Mensch auf dem Mond?",
+      "correct_answer": "Neil Armstrong",
+      "incorrect_answers": ["Buzz Aldrin", "Yuri Gagarin", "John Glenn"]
+    },
+    {
+      "question": "Wie viele Zähne hat ein erwachsener Mensch normalerweise?",
+      "correct_answer": "32",
+      "incorrect_answers": ["30", "28", "34"]
+    },
+    {
+      "question": "Was ist die Hauptstadt von Japan?",
+      "correct_answer": "Tokio",
+      "incorrect_answers": ["Osaka", "Kyoto", "Hiroshima"]
+    },
+    {
+      "question": "Wie viele Minuten hat eine Stunde?",
+      "correct_answer": "60",
+      "incorrect_answers": ["50", "70", "80"]
+    },
+    {
+      "question": "Welche Sprache wird in Brasilien hauptsächlich gesprochen?",
+      "correct_answer": "Portugiesisch",
+      "incorrect_answers": ["Spanisch", "Englisch", "Französisch"]
+    },
+    {
+      "question": "Welches Land ist für das Essen Sushi bekannt?",
+      "correct_answer": "Japan",
+      "incorrect_answers": ["China", "Thailand", "Vietnam"]
+    },
+    {
+      "question": "Wie viele Streifen hat die Flagge der USA?",
+      "correct_answer": "13",
+      "incorrect_answers": ["12", "14", "15"]
+    },
+    {
+      "question": "Was ist das Symbol für das Element Gold?",
+      "correct_answer": "Au",
+      "incorrect_answers": ["Ag", "Fe", "Pb"]
+    }
+  ]
+  
