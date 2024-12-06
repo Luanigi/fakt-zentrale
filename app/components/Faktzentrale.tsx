@@ -65,7 +65,7 @@ export const Faktzentrale = () => {
             <p className="md:text-2xl text-lg bg-select drop-shadow-2xl border-2 border-white backdrop-blur rounded-lg p-5 m-auto mb-0 md:w-7/12 w-3/4">{fact}</p>
             )}
 
-            <div className="flex">
+            <div className="flex m-auto">
               <Button className='mt-7 mx-4 rounded-full hover:scale-110 hover:bg-zinc-800 transition-transform duration-300' onClick={speech}>
                 <LuSpeech />
               </Button>
