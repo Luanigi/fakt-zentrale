@@ -16,7 +16,7 @@ const ShareButton: React.FC<ShareButtonProps> = ({ fact }) => {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Check this out!',
+          title: 'Interessanter Fakt!',
           text: fact,
           url: window.location.href,
         });

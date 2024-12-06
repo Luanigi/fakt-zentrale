@@ -62,7 +62,7 @@ export const Faktzentrale = () => {
             {loading ? (
             <p className="text-lg">Faktinator ladet...</p>
             ) : (
-            <p className="md:text-2xl text-lg bg-select drop-shadow-2xl border-2 border-white backdrop-blur rounded-lg p-5 m-5 mb-0 md:w-7/12 w-3/4">{fact}</p>
+            <p className="md:text-2xl text-lg bg-select drop-shadow-2xl border-2 border-white backdrop-blur rounded-lg p-5 m-auto mb-0 md:w-7/12 w-3/4">{fact}</p>
             )}
 
             <div className="flex">

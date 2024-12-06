@@ -13,13 +13,13 @@ import Image from 'next/image';
 
 export default function AndereWebsites() {
   return (
-    <div data-aos="zoom-in-right">
+    <div data-aos="fade-in">
       <h1 className="md:text-[2rem] text-2xl font-bold text-center text-white mt-12 mb-2">Websites:</h1>
       <Carousel
         opts={{
           align: "start",
         }}
-        className="md:w-full w-3/4 max-w-sm mb-[50px] md:max-w-2xl lg:max-w-4xl"
+        className="md:w-full w-3/4 max-w-sm m-auto mb-[50px] md:max-w-2xl lg:max-w-4xl"
       >
         <CarouselContent>
           {cardsData.map((item, index) => (

@@ -8,18 +8,18 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Link from 'next/link';
-import { booksData } from './books-data'; // Stelle sicher, dass der Pfad zu deiner data.js Datei korrekt ist
+import { booksData } from './books-data'; 
 import Image from 'next/image';
 
 export default function Buecher() {
   return (
-    <div data-aos="fade-left">
+    <div data-aos="fade-in">
       <h1 className="md:text-[2rem] text-2xl font-bold text-center text-white mt-12 mb-2">Faktische Bücher:</h1>
       <Carousel
         opts={{
           align: "start",
         }}
-        className="md:w-full w-3/4 max-w-sm mb-[50px] md:max-w-2xl lg:max-w-4xl"
+        className="md:w-full w-3/4 max-w-sm m-auto mb-[50px] md:max-w-2xl lg:max-w-4xl"
       >
         <CarouselContent>
           {booksData.map((item, index) => (

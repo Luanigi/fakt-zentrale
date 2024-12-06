@@ -1,4 +1,3 @@
-// pages/index.tsx
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Faktzentrale from './components/Faktzentrale'
@@ -18,10 +17,10 @@ const Home: NextPage = () => {
       <main id="hero">
         <Faktzentrale />
       </main>
-      <Quiz />
-      <Ressources />
-      <Footer />
-      <ScrollToTop />
+      <Quiz         />
+      <Ressources   />
+      <Footer       />
+      <ScrollToTop  />
     </div>
   )
 }
