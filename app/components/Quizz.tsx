@@ -58,7 +58,7 @@ const Quiz: React.FC = () => {
               <RadioGroup.Option
                 key={option}
                 value={option}
-                className='relative rounded-lg shadow-md px-5 py-4 cursor-pointer flex focus:outline-none bg-white focus:bg-zinc-300 hover:scale-105 transition duration-300 ease-in-out'
+                className='relative rounded-lg shadow-md px-5 py-4 cursor-pointer flex focus:outline-none bg-gradient-to-r from-red-500 to-yellow-500 hover:from-red-600 hover:to-yellow-600 focus:from-red-600 focus:to-yellow-600 hover:scale-105 transition duration-300 ease-in-out'
                 >
                 {({ checked }) => (
                   <>
@@ -75,7 +75,7 @@ const Quiz: React.FC = () => {
                         <span className="w-2 h-2 bg-white rounded-full" />
                       )}
                     </span>
-                    <RadioGroup.Label as="span" className="text-gray-900">
+                    <RadioGroup.Label as="span" className="text-white">
                       {option}
                     </RadioGroup.Label>
                   </>
