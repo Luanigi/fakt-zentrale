@@ -36,7 +36,7 @@ export const LoadingScreen: React.FC = () => {
         >
             <div className="flex flex-row items-center">
                 <Image src={"/icon.png"} alt="Logo" width={100} height={100} className='mb-6'/>
-                <h1 className='text-[3rem] text-white font-extrabold mb-8'>Fakt Zentrale</h1>
+                <h1 className='md:text-[3rem] text-[2rem] text-white font-extrabold mb-8'>Fakt Zentrale</h1>
             </div>
 
           <div className="relative w-24 h-24">

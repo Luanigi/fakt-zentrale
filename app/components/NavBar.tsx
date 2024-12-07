@@ -66,7 +66,7 @@ const Nav: FC<NavProps> = ({ category, setCategory, categories }) => {
           />
           
           <h1 className="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-600">
-            Fkt Zntrle
+            Fakt Zntrle
           </h1>
           </Link>
         </div>
@@ -98,21 +98,21 @@ const Nav: FC<NavProps> = ({ category, setCategory, categories }) => {
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className='bg-zinc-900 text-white z-[999] w-full outline-none border-none'>
-            <div className="flex flex-col space-y-4 mt-4 ">
+            <div className="flex flex-col space-y-4 mt-5 w-3/4 m-auto">
               <Select onValueChange={setCategory}>
-                <SelectTrigger>
-                  <SelectValue placeholder={category} />
+                <SelectTrigger  className='text-3xl h-30'>
+                  <SelectValue placeholder={category}/>
                 </SelectTrigger>
                 <SelectContent className="z-[999] bg-zinc-900 text-white">
-                  <SelectItem value={categories.wissenschaft}>Wissenschaft</SelectItem>
-                  <SelectItem value={categories.geschichte}>Geschichte</SelectItem>
-                  <SelectItem value={categories.technologie}>Technologie</SelectItem>
+                  <SelectItem value={categories.wissenschaft} className='text-3xl h-30'>Wissenschaft</SelectItem>
+                  <SelectItem value={categories.geschichte} className='text-3xl h-30'>Geschichte</SelectItem>
+                  <SelectItem value={categories.technologie} className='text-3xl h-30'>Technologie</SelectItem>
                 </SelectContent>
               </Select>
-              <Button variant="outline" className='bg-zinc-900'>
+              <Button variant="outline" className='bg-zinc-900 text-3xl h-30'>
                 <Link href="/about">About</Link>
               </Button>
-              <Button variant="outline" className='bg-zinc-900'>
+              <Button variant="outline" className='bg-zinc-900 text-3xl h-30'>
                 <Link href="/#contact">Kontakt</Link>
               </Button>
             </div>
