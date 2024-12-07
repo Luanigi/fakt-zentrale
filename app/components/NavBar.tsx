@@ -86,7 +86,7 @@ const Nav: FC<NavProps> = ({ category, setCategory, categories }) => {
             <Link href="/about">About</Link>
           </Button>
           <Button className='bg-zinc-900'>
-            <Link href="#contact">Kontakt</Link>
+            <Link href="/#contact">Kontakt</Link>
           </Button>
         </div>
 
@@ -112,7 +112,9 @@ const Nav: FC<NavProps> = ({ category, setCategory, categories }) => {
               <Button variant="outline" className='bg-zinc-900'>
                 <Link href="/about">About</Link>
               </Button>
-              <Button variant="outline" className='bg-zinc-900'>Contact</Button>
+              <Button variant="outline" className='bg-zinc-900'>
+                <Link href="/#contact">Kontakt</Link>
+              </Button>
             </div>
           </SheetContent>
         </Sheet>

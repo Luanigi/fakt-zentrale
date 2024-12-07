@@ -14,7 +14,7 @@ export default function Footer() {
             <p className="text-sm">
                 Ich bin ein 16 Jähriger Fullstack Web developer (albaner) aus NRW und ich programmiere
                 Websites mit next.js! Wenn was ist schreib mir einfach auf discord brd. Dort 
-                heiße ich: shq.ptar 👋 
+                heiße ich: shq.ptar 👋 <br />••<br />U 
             </p>
             
           </div>

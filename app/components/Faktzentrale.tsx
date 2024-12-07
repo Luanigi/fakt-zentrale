@@ -5,9 +5,7 @@ import { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
-import { LuSpeech } from "react-icons/lu";
-import ShareButton from './ShareButtons';
+import FactButtons from './FactButtons';
 
 export const categories = {
   wissenschaft: 'wissenschaft',
@@ -49,27 +47,21 @@ export const Faktzentrale = () => {
     });
   }, []);
 
-  const speech = () => {
-    speechSynthesis.speak(new SpeechSynthesisUtterance(fact as string));
-  }
+
   return (
     <>
         <NavBar category={category} setCategory={setCategory} categories={categories} />
         <div className="flex flex-col items-center justify-center h-screen text-white" data-aos="fade-up">
           <div className="backdrop-blur-lg bg-black/20 p-6 md:pb-0 rounded-lg shadow-lg text-center md:w-2/4 md:h-2/4 w-3/4 justify-center place-items-center" >
-            <h1 className="md:text-[4rem] text-[1.5rem] font-extrabold mb-4 md:pt-12" data-aos="fade-in" data-aos-duration="1000">🚨 Fakt Zentrale 🚨</h1>
-
-            {loading ? (
+              <h1 className="md:text-[4rem] text-[1.5rem] font-extrabold   mb-4 md:pt-12" data-aos="fade-in" data-aos-duration="1000">🚨 Fakt Zentrale 🚨</h1>
+             {loading ? (
             <p className="text-lg">Faktinator ladet...</p>
             ) : (
             <p className="md:text-2xl text-lg bg-select drop-shadow-2xl border-2 border-white backdrop-blur rounded-lg p-5 m-auto mb-0 md:w-7/12 w-3/4">{fact}</p>
             )}
 
             <div className="flex md:m-0 m-auto">
-              <Button className='mt-7 mx-4 rounded-full hover:scale-110 hover:bg-zinc-800 transition-transform duration-300' onClick={speech}>
-                <LuSpeech />
-              </Button>
-              {fact && <ShareButton fact={fact} />}
+              {fact && <FactButtons fact={fact} />}
             </div>
           </div>
 

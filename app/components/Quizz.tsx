@@ -47,6 +47,7 @@ const Quiz: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-black p-4" data-aos="fade-up" id="quiz">
+
       <h1 className='text-4xl font-bold text-white pb-10 underline'>Fakten Quiz</h1>
       <div className="w-full max-w-md p-4 bg-zinc-900 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold mb-4 text-white">{currentFact.question}</h2>
@@ -57,7 +58,7 @@ const Quiz: React.FC = () => {
               <RadioGroup.Option
                 key={option}
                 value={option}
-                className='relative rounded-lg shadow-md px-5 py-4 cursor-pointer flex focus:outline-none bg-white focus:bg-zinc-300'
+                className='relative rounded-lg shadow-md px-5 py-4 cursor-pointer flex focus:outline-none bg-white focus:bg-zinc-300 hover:scale-105 transition duration-300 ease-in-out'
                 >
                 {({ checked }) => (
                   <>
