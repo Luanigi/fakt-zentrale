@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Nav from "../components/NavBar";
+import Footer from "../components/Footer";
 
 const categories = {
     wissenschaft: 'Wissenschaft',
@@ -15,7 +16,7 @@ export default function About() {
     const [category, setCategory] = useState(categories.wissenschaft);
   return (
     <>
-    <div className="bg-cover bg-center h-screen" id="about">
+    <div className="bg-cover bg-center" id="about">
     <Nav category={category} setCategory={setCategory} categories={categories} />
 
         <main className="text-center text-white bg-cover bg-center flex flex-col items-center justify-center">
@@ -52,6 +53,7 @@ Vielen Dank, dass Sie Faktzentrale besuchen und unsere Arbeit unterstützen. Gem
             </div>
         </main>
     </div>
+    <Footer />
     </>
   )
 }

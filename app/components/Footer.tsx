@@ -11,10 +11,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 backdrop-blur-lg bg-black/20 p-8 rounded-2xl">
           <div>
             <h3 className="text-lg font-semibold mb-4">Über mich</h3>
-            <p className="text-sm">
-                Ich bin ein 16 Jähriger Fullstack Web developer (albaner) aus NRW und ich programmiere
-                Websites mit next.js! Wenn was ist schreib mir einfach auf discord brd. Dort 
-                heiße ich: shq.ptar 👋 <br />••<br />U 
+            <p className="text-sm text-justify">
+                16 Jähriger Fullstack Web developer aus NRW und ich programmiere
+                Websites mit next.js! <br /> Haben Sie etwas zu bemerken oder Sie wollen 
+                kontakt aufnehmen? Dann schreiben Sie mir doch gerne bei Discord!
+                Mein Nutzername: <b>shq.ptar</b> 👋 <br />••<br />U 
             </p>
             
           </div>
